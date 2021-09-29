@@ -1,28 +1,33 @@
 {
-  "name": "events",
-  "version": "3.3.0",
-  "description": "Node's event emitter for all engines.",
+  "name": "@frida/events",
+  "version": "4.0.0",
+  "description": "Node's event emitter for Frida",
   "keywords": [
     "events",
     "eventEmitter",
     "eventDispatcher",
     "listeners"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/browserify/events.git",
-    "web": "https://github.com/browserify/events"
+    "url": "https://github.com/frida/events.git",
+    "web": "https://github.com/frida/events"
   },
   "bugs": {
-    "url": "http://github.com/browserify/events/issues/"
+    "url": "http://github.com/frida/events/issues/"
   },
   "main": "./events.js",
+  "files": [
+    "/events.js"
+  ],
   "engines": {
     "node": ">=0.8.x"
   },
   "devDependencies": {
-    "airtap": "^1.0.0",
     "functions-have-names": "^1.2.1",
     "has": "^1.0.3",
     "has-symbols": "^1.0.1",
@@ -30,8 +35,7 @@
     "tape": "^5.0.0"
   },
   "scripts": {
-    "test": "node tests/index.js",
-    "test:browsers": "airtap -- tests/index.js"
+    "test": "node tests/index.js"
   },
   "license": "MIT"
 }
