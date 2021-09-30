@@ -30,6 +30,9 @@ function EventEmitter() {
   EventEmitter.init.call(this);
 }
 
+// Backwards-compat with node 0.10.x
+EventEmitter.EventEmitter = EventEmitter;
+
 EventEmitter.prototype._events = undefined;
 EventEmitter.prototype._eventsCount = 0;
 EventEmitter.prototype._maxListeners = undefined;
