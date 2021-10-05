@@ -1,7 +1,7 @@
 {
   "name": "@frida/events",
   "version": "4.0.2",
-  "description": "Node's event emitter for Frida",
+  "description": "Node.js's events module for Frida",
   "keywords": [
     "events",
     "eventEmitter",
