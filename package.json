@@ -21,6 +21,7 @@
     "url": "http://github.com/frida/gumjs-events/issues/"
   },
   "main": "./events.js",
+  "type": "module",
   "files": [
     "/events.js"
   ],
